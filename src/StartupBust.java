@@ -9,9 +9,9 @@ public class StartupBust{
 	private void setUpGame(){
 		
 		Startup one = new Startup();
-		one.setName("Poinex");
+		one.setName("Titanium");
 		Startup two = new Startup();
-		two.setName("Hacqi");
+		two.setName("Astro");
 		Startup three = new Startup();
 		three.setName("Cabista");
 		startups.add(one);
@@ -19,7 +19,7 @@ public class StartupBust{
 		startups.add(three);
 		
 		System.out.println("Your goal is to sink three startups: ");
-		System.out.println("Poinex, Hacqi, Cabista");
+		System.out.println("Titanium, Astro, Cabista");
 		System.out.println("Try to sink them all in fewest number of guesses");
 		
 		for(Startup startup : startups){
